@@ -19,6 +19,7 @@ def appearance(intervals: dict) -> int:
         for j in range(0, len(pupil), 2):
             general_start = pupil[j]
             general_end = pupil[j + 1]
+            
             if tutor_start > general_end:
                 continue
 
